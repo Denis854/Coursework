@@ -1,0 +1,190 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+html {height: 100%}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 135%;
+    float: left;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: red;
+}
+a, a:hover{
+    text-decoration: none;
+    -webkit-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    transition: all.6s ease;
+}
+.clear{
+    clear: both;
+}
+
+/* Стили шапки */
+
+header{
+    width: 98.5%;
+    float: left;
+    padding: 1.5%;
+    background-color: black;
+    border-bottom: 2px solid red;
+    margin-bottom: 20px;
+
+}
+header #logo{
+    width: 40%;
+    float: left;
+  
+}
+header #logo a{
+    color: white;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header #menuHead{
+    width: 25%;
+    float: left;
+}
+header #menuHead div{
+    float: left;   
+}
+header #menuHead div:hover{
+    float: left;   
+    color: red;
+}
+
+header #logo span{
+    color: red;
+}
+/* стили основной части */
+
+#wrapper{
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+}
+/* стили левой части */
+#wrapper #leftCol{
+    width: 70%;
+    margin-right: 10%;
+    float: left;
+}
+#wrapper #leftCol #bigArcticle{
+    width: 78%;
+    margin-left: 10%;
+    padding: 1%;
+    float: left;
+
+}
+#wrapper #leftCol #bigArticle img, #wrapper #leftCol .article img{
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+#wrapper #leftCol #bigArticle h2, #wrapper #leftCol .article h2{
+    font-weight: normal;
+    font-size: 1.5em;
+    color: red;
+}
+#wrapper #leftCol #bigArticle div:hover, #wrapper #leftCol .article div:hover{
+    color: red;
+}
+#wrapper #leftCol .article{
+    width: 40%;
+    margin-left: 5%;
+    padding: 1%;
+    float: left;
+
+}
+#wrapper #leftCol input{
+    width: 40%;
+    margin-left: 30%;
+    float: left;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    padding: 5px;
+ 
+}
+#wrapper #leftCol input:focus, #wrapper #leftCol textarea:focus{
+    border: 2px solid red;
+}
+#wrapper #leftCol input#done:hover{
+    border: 2px solid red;
+    cursor: pointer;
+}
+#wrapper #leftCol textarea{
+    width: 50%;
+    height: 150px;
+    margin-left: 25%;
+    float: left;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    padding: 5px;
+    resize: none;
+}
+#wrapper #leftCol #messageShow{
+    font-size: 1.2em;
+    float: left;
+    color: red;
+    width: 100%;
+    text-align: center;
+}
+/* стили правой части */ 
+#wrapper #rightCol{
+    width: 20%;
+    float: left;  
+}
+#wrapper #rightCol .banner{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* стили футера */
+footer{
+    width: 98%;
+    float: left;
+    padding: 1%;
+    border-top: 2px solid red;
+    margin-top: 1%;
+}
+footer #social{
+    float: left;
+    width: 50%;
+}
+footer #rights{
+    float: right;
+    width: 50%;
+    text-align: right;
+    font-size: 1.1em;
+}
+footer #social img{
+    width: 30px;
+    height: auto;
+    float: left;
+    margin-right: 1%;
+}
+
+
